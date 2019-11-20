@@ -4,6 +4,3 @@ Feature: To test the Landing Page of Game.com and the functionality associated w
     Given the user is on the landing page
     And search for the product by entering the text
     And press search button
-    Example Scenario Outline:
-      |xbox|
-      |ps4|

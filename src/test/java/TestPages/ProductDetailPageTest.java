@@ -2,6 +2,7 @@ package TestPages;
 
 import Base.TestBase;
 import Pages.ProductDetailPage;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -26,6 +27,12 @@ public class ProductDetailPageTest extends TestBase
     public void isCustAbleToAddProductByClkOnBuyBttn()
     {
         productDetailPage.validateAddProductByClkOnBuyBttn();
+    }
+
+    @After
+    public void tearDown()
+    {
+        driver.quit();
     }
 
 }

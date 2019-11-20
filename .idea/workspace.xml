@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b4690091-4c20-46b1-a9f1-1bc4973934af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPages/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPages/LandingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPages/ProductDetailPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPages/ProductDetailPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPages/ProductListingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPages/ProductListingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/LandingPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/LandingPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestPages/LandingPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestPages/LandingPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestPages/ProductDetailPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestPages/ProductDetailPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestPages/ProductListingPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestPages/ProductListingPageTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,25 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User is able to add the product to the Shopping Bag by selecting the format">
-    <configuration name="Feature: LandingPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LandingPage.feature" />
-      <option name="GLUE" value="TestPages" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="GameTest" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: LandingPage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: ProductDetailPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ProductDetailPage.feature" />
@@ -149,13 +138,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: User is able to add the product to the Shopping Bag by selecting the format" />
-        <item itemvalue="Cucumber java.Feature: ProductDetailPage" />
-        <item itemvalue="Cucumber java.Scenario: Validate from the search Result window user is able to view the product by clicking on the image" />
-        <item itemvalue="Cucumber java.Feature: SearchResultsPage" />
-        <item itemvalue="Cucumber java.Feature: LandingPage" />
+        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +190,11 @@
       <workItem from="1574165741404" duration="1747000" />
       <workItem from="1574167982195" duration="610000" />
       <workItem from="1574176579929" duration="624000" />
+      <workItem from="1574182766160" duration="647000" />
+      <workItem from="1574185345457" duration="16000" />
+      <workItem from="1574275846157" duration="698000" />
+      <workItem from="1574280526963" duration="1711000" />
+      <workItem from="1574282324051" duration="694000" />
     </task>
     <servers />
   </component>

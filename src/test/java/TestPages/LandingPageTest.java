@@ -32,11 +32,11 @@ public class LandingPageTest extends TestBase
         landingPage.validateClickSearchBttn();
     }
 
-   /* @After
+    @After
     public void tearDown()
     {
         driver.quit();
-    }*/
+    }
 
 
 }

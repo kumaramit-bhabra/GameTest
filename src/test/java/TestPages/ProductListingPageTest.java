@@ -2,6 +2,7 @@ package TestPages;
 
 import Base.TestBase;
 import Pages.ProductListingPage;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -26,5 +27,11 @@ public class ProductListingPageTest extends TestBase
     public void selectProductByImageTest()
     {
         Assert.assertTrue("Not able to select the product by image",productListingPage.validateSelectProductByImage());
+    }
+
+    @After
+    public void tearDown()
+    {
+        driver.quit();
     }
 }
